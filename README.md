@@ -6,7 +6,7 @@ Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 
 1. [Flash Uninstaller](https://fpdownload.macromedia.com/get/flashplayer/current/support/uninstall_flash_player.exe)
 2. [Shockwave Uninstaller](http://fpdownload.macromedia.com/get/shockwave/uninstall/win/sw_uninstaller.exe)
 
-##Directions##
+## Directions
 1. Download and install [Palemoon 28 32bit](https://archive.palemoon.org/palemoon/28.x/28.17.0/palemoon-28.17.0.win32.installer.exe)
 > Open palemoon and then close it to generate profile folder.
 > Make sure to disable auto updates for palemoon
