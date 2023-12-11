@@ -15,7 +15,7 @@ Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 
 4. Copy the additional 3Dvia files and paste it into your `%appdata%\Moonchild Productions\Pale Moon\Profiles\RANDOM_NAME.default` directory. RANDOM_NAME will be different for you, but you can put `%appdata%\Moonchild Productions\Pale Moon\Profiles` into the Run box and it should open up the directory containing your profile folder.
 5. Copy `C:\Program Files (x86)\Pale Moon\plugins` folder and paste it into your `%appdata%\Moonchild Productions\Pale Moon\Profiles\RANDOM_NAME.default` directory. RANDOM_NAME will be different for you, but you can put `%appdata%\Moonchild Productions\Pale Moon\Profiles` into the Run box and it should open up the directory containing your profile folder.
 
-**Fiddler**
+### Fiddler
 > Instructions by themrrobert.
 
 **Installation Instructions:**
