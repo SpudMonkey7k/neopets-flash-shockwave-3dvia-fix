@@ -12,8 +12,8 @@ Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 
 > Make sure to disable auto updates for palemoon
 2. Download and install  [Flash player](/installers/flashplayer32_0r0_371_win.msi),  [Shockwave](/installers/Shockwave_Installer_Full.exe), [3dvia](http://3dlifeplayer.dl.3dvia.com/player/install/installer.exe), and [Fiddler Classic](https://www.telerik.com/download/fiddler) (No email confirmation to download, so you can use a fake one)
 3. Download [additional 3Dvia files](https://download-directory.github.io/?url=https://github.com/SpudMonkey7k/neopets-flash-shockwave-3dvia-fix/tree/main/3dviafiles)
-4. Copy the additional 3Dvia files and paste it into your `%appdata%\Moonchild Productions\Pale Moon\Profiles\RANDOM_NAME.default` directory. RANDOM_NAME will be different for you, but you can put "%appdata%\Moonchild Productions\Pale Moon\Profiles" into the Run box (without quotes) and it should open up the directory containing your profile folder.
-5. Copy "C:\Program Files (x86)\Pale Moon\plugins" folder and paste it into your "%appdata%\Moonchild Productions\Pale Moon\Profiles\RANDOM_NAME.default" directory. RANDOM_NAME will be different for you, but you can put "%appdata%\Moonchild Productions\Pale Moon\Profiles" into the Run box (without quotes) and it should open up the directory containing your profile folder.
+4. Copy the additional 3Dvia files and paste it into your `%appdata%\Moonchild Productions\Pale Moon\Profiles\RANDOM_NAME.default` directory. RANDOM_NAME will be different for you, but you can put `%appdata%\Moonchild Productions\Pale Moon\Profiles` into the Run box and it should open up the directory containing your profile folder.
+5. Copy `C:\Program Files (x86)\Pale Moon\plugins` folder and paste it into your `%appdata%\Moonchild Productions\Pale Moon\Profiles\RANDOM_NAME.default` directory. RANDOM_NAME will be different for you, but you can put `%appdata%\Moonchild Productions\Pale Moon\Profiles` into the Run box and it should open up the directory containing your profile folder.
 
 **Fiddler**
 > Instructions by themrrobert.
