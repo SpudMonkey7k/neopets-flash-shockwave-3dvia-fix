@@ -8,8 +8,8 @@ Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 
 
 ## Directions
 1. Download and install [Palemoon 28 32bit](https://archive.palemoon.org/palemoon/28.x/28.17.0/palemoon-28.17.0.win32.installer.exe)
-> Open palemoon and then close it to generate profile folder.
-> Make sure to disable auto updates for palemoon
+> - Open palemoon and then close it to generate profile folder.
+> - Make sure to disable auto updates for palemoon
 2. Download and install  [Flash player](/installers/flashplayer32_0r0_371_win.msi),  [Shockwave](/installers/Shockwave_Installer_Full.exe), [3dvia](http://3dlifeplayer.dl.3dvia.com/player/install/installer.exe), and [Fiddler Classic](https://www.telerik.com/download/fiddler) (No email confirmation to download, so you can use a fake one)
 3. Download [additional 3Dvia files](https://download-directory.github.io/?url=https://github.com/SpudMonkey7k/neopets-flash-shockwave-3dvia-fix/tree/main/3dviafiles)
 4. Copy the additional 3Dvia files and paste it into your `%appdata%\Moonchild Productions\Pale Moon\Profiles\RANDOM_NAME.default` directory. RANDOM_NAME will be different for you, but you can put `%appdata%\Moonchild Productions\Pale Moon\Profiles` into the Run box and it should open up the directory containing your profile folder.
@@ -17,6 +17,7 @@ Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 
 
 **Fiddler**
 > Instructions by themrrobert.
+
 **Installation Instructions:**
 2. Find fiddler script folder (usually Documents\Fiddler2\Scripts) and save [CustomRules.js](https://github.com/themrrobert/neopets-flash-fix-windows-10/fiddler/CustomRules.js) to that directory. Alternatively, you can copy/paste the file contents into Fiddler->Rules->Customize rules (erase everything in there first), and hit Ctrl+S to save. You should hear a slight ding.
 3. In Fiddler go to Tools -> Options -> HTTPS.
@@ -39,7 +40,7 @@ Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 
 >
 > Fiddler seems to need "Capture Traffic" enabled in order to work consistently (feel free to experiment). This means it logs every packet that is proxied throuogh it. So while you can watch Youtube on Chrome while running Fiddler, you should clear out the history/restart Fiddler once in a while, otherwise it will start using up all your memory holding a copy of every video packet!
 
-**Open Pale Moon and click Add-ons from the menu then click on Plugins, make sure it shows all 3 plugins as active**
+**Open Pale Moon and open the menu then select Add-ons then click on Plugins, make sure it shows all 3 plugins as active**
 ![Pale Moon Plugins](https://github.com/SpudMonkey7k/neopets-flash-shockwave-3dvia-fix/blob/main/assets/palemoon-plugins.png)
 
 > Make sure that Pale Moon is certificated and that Fiddler is running when trying to play on Neopets.
