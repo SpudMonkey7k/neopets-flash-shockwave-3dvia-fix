@@ -12,7 +12,7 @@ Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 
 1. Download and install [Palemoon 28 32bit](https://archive.palemoon.org/palemoon/28.x/28.17.0/palemoon-28.17.0.win32.installer.exe)
 > - Open palemoon and then close it to generate profile folder.
 > - Make sure to disable auto updates for palemoon
-2. Download and install  [Flash player](/installers/flashplayer32_0r0_371_win.msi),  [Shockwave](/installers/Shockwave_Installer_Full.exe), [3dvia](http://3dlifeplayer.dl.3dvia.com/player/install/installer.exe), and [Fiddler Classic](https://www.telerik.com/download/fiddler) (No email confirmation to download, so you can use a fake one)
+2. Download and install  [Flash player](/raw/main/installers/flashplayer32_0r0_371_win.msi),  [Shockwave](/raw/main/installers/Shockwave_Installer_Full.exe), [3dvia](http://3dlifeplayer.dl.3dvia.com/player/install/installer.exe), and [Fiddler Classic](https://www.telerik.com/download/fiddler) (No email confirmation to download, so you can use a fake one)
 3. Download [additional 3Dvia files](https://download-directory.github.io/?url=https://github.com/SpudMonkey7k/neopets-flash-shockwave-3dvia-fix/tree/main/3dviafiles)
 4. Copy the additional 3Dvia files and paste it into your `%appdata%\Moonchild Productions\Pale Moon\Profiles\RANDOM_NAME.default` directory. RANDOM_NAME will be different for you, but you can put `%appdata%\Moonchild Productions\Pale Moon\Profiles` into the Run box and it should open up the directory containing your profile folder.
 5. Copy `C:\Program Files (x86)\Pale Moon\plugins` folder and paste it into your `%appdata%\Moonchild Productions\Pale Moon\Profiles\RANDOM_NAME.default` directory. RANDOM_NAME will be different for you, but you can put `%appdata%\Moonchild Productions\Pale Moon\Profiles` into the Run box and it should open up the directory containing your profile folder.
@@ -22,7 +22,7 @@ Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 
 
 **Installation Instructions:**
 
-1. Find fiddler script folder (usually Documents\Fiddler2\Scripts) and save [CustomRules.js](https://github.com/themrrobert/neopets-flash-fix-windows-10/fiddler/CustomRules.js) to that directory. Alternatively, you can copy/paste the file contents into Fiddler->Rules->Customize rules (erase everything in there first), and hit Ctrl+S to save. You should hear a slight ding.
+1. Find fiddler script folder (usually Documents\Fiddler2\Scripts) and save [CustomRules.js](https://github.com/themrrobert/neopets-flash-fix-windows-10/blob/main/fiddler/CustomRules.js) to that directory. Alternatively, you can copy/paste the file contents into Fiddler->Rules->Customize rules (erase everything in there first), and hit Ctrl+S to save. You should hear a slight ding.
 2. In Fiddler go to Tools -> Options -> HTTPS.
 > **Enable:**
 > - Capture HTTPS CONNECTs
