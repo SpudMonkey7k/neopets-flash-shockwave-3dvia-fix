@@ -1,7 +1,7 @@
 This fix follows [themrrobert](https://github.com/themrrobert/neopets-flash-fix-windows-10)'s fix utilizing an additional step for 3Dvia. 
 Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 3dvia while themrrobert uses 64bit for flash and 32bit for shockwave and 3dvia. 
 
-### Works best on a 32bit system, try a vm of 32bit windows 8.1 or windows 10 20H2 or older.
+### Tested on Windows 8.1 and Windows 10. Was unable to get flash to work on Win11. 
 
 **Make sure to uninstall any previous version of Flash or Shockwave currently installed on your mashine**
 > you may need to run the uninstallers as admin.
