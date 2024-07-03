@@ -10,7 +10,7 @@
 
 (function() {
     const stylesheet = `
-    #PlotAchievment1
+    #PlotAchievement1
     {
     display: none !important;
     }
