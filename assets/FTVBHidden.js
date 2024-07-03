@@ -10,7 +10,7 @@
 
 (function() {
     const stylesheet = `
-    .plothub-container.rewards.tvw .plothub-awards .plothub-achievements .plothub-act .plothub-achievement-list .plothub-achievement-item
+    #PlotAchievment1
     {
     display: none !important;
     }
