@@ -3,7 +3,7 @@
 // @version      0.1
 // @description  Show all 7 days for the weekly essence collection
 // @author       SpudMonkey7k
-// @match        https://www.neopets.com/tvw/rewards/
+// @match        https://www.neopets.com/tvw/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=neopets.com
 // @run-at       document-start
 // ==/UserScript==
