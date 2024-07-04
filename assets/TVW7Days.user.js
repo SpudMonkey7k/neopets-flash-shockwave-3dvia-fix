@@ -10,13 +10,19 @@
 
 (function() {
     const stylesheet = `
-    .vc-arrow left,.vc-arrow right 
+    .vc-arrow
     {
     display: none !important;
     }
+    .vc-collected
+    {
+    width: 675px !important;
+    margin-left: -15;
+    padding-right: 25;
+    }
     .vc-list
     {
-    width: 494.438 !important;
+    width: 535.250 !important;
     }
 `;
 
