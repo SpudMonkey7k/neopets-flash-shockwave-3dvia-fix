@@ -33,7 +33,7 @@
 
     var style = document.createElement("style");
     style.type="text/css";
-    style.id="harvey_void_ui_fix";
+    style.id="void_weekly_fix";
     style.innerHTML=stylesheet;
     document.head.appendChild(style);
 })();
