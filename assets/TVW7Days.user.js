@@ -23,8 +23,8 @@
     .vc-list
     {
     width: 535.250 !important;
-    } 
-    .plothub-container.home.tvw .void-collection .vc-collected .vc-list .vc-item
+    }
+    div.plothub-container.home.tvw div.void-collection div.vc-collected div.vc-list div.vc-item
     {
     font-size: 14pt;
     }
