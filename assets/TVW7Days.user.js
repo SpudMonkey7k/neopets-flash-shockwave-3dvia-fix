@@ -23,6 +23,10 @@
     .vc-list
     {
     width: 535.250 !important;
+    } 
+    .plothub-container.home.tvw .void-collection .vc-collected .vc-list .vc-item
+    {
+    font-size: 14pt;
     }
 `;
 
