@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Void Within Weekly
-// @version      0.1
+// @version      0.2
 // @description  Show all 7 days for the weekly essence collection
 // @author       SpudMonkey7k
 // @match        https://www.neopets.com/tvw/
