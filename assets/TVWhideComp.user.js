@@ -10,7 +10,7 @@
 
 (function() {
     const stylesheet = `
-    .plothub-achievement-item complete
+    .plothub-achievement-item.complete
     {
     display: none !important;
     }
