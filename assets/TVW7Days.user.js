@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Void Within Weekly
-// @version      0.4
+// @version      0.5
 // @description  Show all 7 days for the weekly essence collection
 // @author       SpudMonkey7k, b-fuze
 // @match        https://www.neopets.com/tvw/
@@ -14,7 +14,7 @@
             margin: 0.25em;
         }
         #VoidCollectionTrack .vc-list {
-            width: auto;
+            width: 90%;
             flex-wrap: wrap;
             flex: 0 1 auto;
             min-width: 0;
