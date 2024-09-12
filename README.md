@@ -47,3 +47,14 @@ Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 
 ![Pale Moon Plugins](https://github.com/SpudMonkey7k/neopets-flash-shockwave-3dvia-fix/blob/main/assets/palemoon-plugins.png)
 
 > Make sure that Pale Moon is certificated and that Fiddler is running when trying to play on Neopets.
+
+**NeoPass**
+
+IE does not natively work with neopass login! You will need to use the following workaround to login via NeoPass. 
+If your default browser, like chrome:
+1. Open developer console (ctrl + shift + i).
+2. Write `document.cookie.split(';').find(c => c.includes('neologin')).trim()` in console, hit enter and you will see something like neologin=youruserxxxxx (don't show anyone this value!!!). 
+3. Then in IE visit neopets.com
+4. Open developer console (f12) and write `document.cookie = "yyy"` where yyy is what you got from chrome (neologin=youruserxxxxx). 
+5. Then refresh and you should be logged in.
+   
