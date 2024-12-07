@@ -52,9 +52,10 @@ Do note that I only use the 32bit browser of palemoon for flash, shockwave, and 
 
 PM does not natively work with neopass login! You will need to use the following workaround to login via NeoPass. 
 If your default browser, like chrome:
-1. Open developer console (ctrl + shift + i).
+1. Open developer console `F12`.
 2. Write `document.cookie.split(';').find(c => c.includes('neologin')).trim()` in console, hit enter and you will see something like neologin=youruserxxxxx (don't show anyone this value!!!). 
 3. Then in PM visit neopets.com
-4. Open developer console (f12) and write `document.cookie = "yyy"` where yyy is what you got from chrome (neologin=youruserxxxxx). 
+4. Open developer console `F12` and write `document.cookie = "yyy"` where yyy is what you got from chrome (neologin=youruserxxxxx). 
 5. Then refresh and you should be logged in.
    
+> If the workaround doesn't log you in, follow this [guide](https://github.com/SpudMonkey7k/neopets-flash-shockwave-3dvia-fix/issues/2#issuecomment-2525304699) to manually add the token.
